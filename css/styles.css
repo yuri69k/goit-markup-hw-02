@@ -47,10 +47,10 @@ body {
 }
 .logo,
 .logo-accent {
-        font-family: Raleway, sans-serif;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;        
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;        
 }
 .logo:hover {
     color: var(--accent-color);
@@ -80,9 +80,9 @@ ul {
 }
 .site-nav,
 .auth-nav {
-        font-weight: 500;        
-        line-height: 1.14;
-        letter-spacing: 0.02em;
+    font-weight: 500;        
+line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .hero-title {
     color: var(--text-white-color);
@@ -176,9 +176,9 @@ ul {
 }
 .adds {
     color:var(--text-white-color);
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 .filter {
     font-weight: 500;

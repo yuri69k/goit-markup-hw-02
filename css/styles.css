@@ -97,8 +97,7 @@ line-height: 1.14;
     background-color:var(--bg-color);
 }
 .peculiarities-text {
-    color: var(--text-color);
-    font-weight: 400;   
+    color: var(--text-color);   
 }
 .section-text {
     color: var(--text-color);
@@ -123,7 +122,6 @@ line-height: 1.14;
 }
 .section-team .text {
     color: var(--text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;      
 }
@@ -131,8 +129,7 @@ line-height: 1.14;
     background-color:var(--bg-color);
 }
 .footer .link {
-    color:var(--text-white-color-footer);
-    font-weight: 400;
+    color:var(--text-white-color-footer);    
     font-size: 14px;
     line-height: 1.71;
 }
@@ -165,8 +162,7 @@ line-height: 1.14;
     letter-spacing: 0.06em;
 }
 .list .text {
-    color:var(--text-color);
-    font-weight: 400;
+    color:var(--text-color);   
     font-size: 16px;
     line-height: 1.88;
 }
@@ -175,8 +171,7 @@ line-height: 1.14;
     cursor: pointer;
 }
 .adds {
-    color:var(--text-white-color);
-    font-weight: 400;
+    color:var(--text-white-color);   
     font-size: 14px;
     line-height: 1.71;
 }

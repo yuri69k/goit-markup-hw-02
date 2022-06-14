@@ -54,10 +54,6 @@ body {
 .logo:hover {
     color: var(--accent-color);
 }
-ul {
-    list-style: none;
-}
-
 .site-nav .link {
     color: var(--primary-color);
 }
@@ -107,13 +103,14 @@ ul {
     line-height: 1.14;  
     text-transform: uppercase;
 }
-.section .title {
+.section .title,
+ .section-team .title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
 }
-.section-team .title {
+.section-team .name {
     color: var(--primary-color);
     font-weight: 500;
     font-size: 16px;
@@ -144,10 +141,12 @@ ul {
 .button.secondary {
     color:var(--text-white-color);
     background-color: var(--accent-color);
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height:1.88;       
-    letter-spacing: 0.06em;        
+    line-height: 1.88;    
+    letter-spacing: 0.06em;
 }
 .button.primary {
     color:var(--primary-color);
@@ -156,14 +155,14 @@ ul {
     font-size: 16px;
     line-height: 1.62;
 }
-.list .title {
+.pic .title {
     color:var(--primary-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
-.list .text {
+.pic .text {
     color:var(--text-color);   
     font-size: 16px;
     line-height: 1.88;
@@ -176,13 +175,26 @@ ul {
     color:var(--text-white-color);   
     font-size: 14px;
     line-height: 1.71;
+    font-style: normal
 }
-.filter {
+.filter .button.primary,
+.filter .button.current {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
 }
+.filter .button.current {
+    background-color:var(--accent-color);
+    color: var(--text-white-color);
+}
 .footer .link {   
     font-style: normal
+}
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
